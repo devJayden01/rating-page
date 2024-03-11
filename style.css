@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.containerA{
+    margin-top: 160px;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.star-img{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: hsl(216, 12%, 8%, 0.4);
+    width: max-content;
+    border-radius: 50%;
+}
+
+h2{
+    color: hsl(0, 0%, 100%);
+    margin: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 20px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    opacity: 0.5;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5rem;
+}
+
+span{
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    padding-top: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    opacity: 0.4;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+span:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    opacity: 1;
+}
+
+span:focus{
+    outline: none;
+    background-color: hsl(217, 12%, 63%); 
+    opacity: 1;
+}
+
+.numbers{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+button{
+    padding: 10px;
+    width: 85%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: hsl(25, 97%, 53%);
+    border: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+
+.containerB{
+    margin-top: 160px;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+    display: none;
+}
+
+.thank-you{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+h3{
+    background-color: hsl(216, 12%, 8%);
+    margin-left: 65px;
+    margin-right: 65px;
+    border-radius: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: hsl(25, 97%, 53%);
+    opacity: 0.4;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tnx{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pgrph{
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#select2, #select3, #select4, #select5{
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .containerA, .containerB {
+        width: 90%;
+    }
+}
